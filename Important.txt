@@ -1,0 +1,21 @@
+=> The reconciliation process makes React work faster.
+Reconciliation is the process through which React updates the Browser DOM.
+Important concepts behind the working of the Reconciliation process are:
+1.Virtual DOM  
+2.Diffing Algorithm
+
+=> In tradition method rendering, DOM has been created and it renders the components even the data is same.
+AFTER THAT,
+virtual DOM comes in the picture, it helps to create a virual dom and when new changes happen in the code,
+then it creates again a new virtual dom 
+
+=> Comparison is done by Diffing Algorithm. The cool fact is all these comparisons take place 
+in the memory and nothing is yet changed in the Browser.
+called Reconciliation.
+
+=> "This updates the Browser DOM with the least number of
+ changes possible without rendering the entire DOM again".
+->It used BFS 
+
+01 react - Basic useState hooks
+
