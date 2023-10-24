@@ -19,3 +19,6 @@ called Reconciliation.
 
 01 react - Basic useState hooks
 
+07reacrouter
+<a</a> -does not used in react because it will reload the whole page
+<Link>-used because it will only update the changes on the dom
